@@ -1,0 +1,36 @@
+Azure Resource Deployment Summary
+
+Resource Region
+
+For this deployment, I selected the **East US** region to host my Azure resources.
+
+The East US region is one of Microsoft's primary Azure datacenter locations. It provides reliable performance, high availability, and supports a wide range of Azure services, making it a suitable choice for deploying cloud resources.
+
+Resource Group
+
+A Resource Group was created to organize and manage the deployed Azure resources. Resource Groups make it easier to monitor, update, and delete related resources as a single unit when necessary.
+
+Shared Responsibility Model
+
+The Shared Responsibility Model defines which security and management responsibilities belong to Microsoft and which belong to the customer.
+
+For the deployed Azure resource:
+
+Microsoft is responsible for:
+
+Physical security of Azure datacenters.
+Maintenance of the underlying hardware and networking infrastructure.
+Availability and resilience of the Azure platform.
+Security of the host operating systems and virtualization layer.
+
+The customer is responsible for:
+
+Configuring the deployed Azure resource correctly.
+Managing user identities and access permissions through Azure Identity services.
+Protecting application data and managing backups where applicable.
+Monitoring resource usage and controlling costs.
+Applying security best practices, such as using strong authentication and least-privilege access.
+
+Conclusion
+
+Deploying resources in the East US region provides access to Microsoft's global cloud infrastructure while benefiting from Azure's reliability and scalability. By understanding the Shared Responsibility Model, customers can effectively secure and manage their cloud resources while Microsoft maintains the underlying cloud infrastructure.
